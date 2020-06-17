@@ -1,0 +1,23 @@
+.main-menus{
+  flex:3;
+  justify-content: flex-end;
+}
+
+.main-menus li{
+  margin-left: 2rem;
+}
+.social-icons{
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+}
+
+.social-icons a{
+  color: rgb(114, 114, 245);
+  margin-left: 1.5rem;
+  font-size:1.5rem;
+}
+
+img[alt="logo-imran"]{
+  height:40px;
+}
