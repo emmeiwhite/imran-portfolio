@@ -3,13 +3,13 @@
   justify-content: flex-end;
 }
 
-.main-menus li a{
+.main-menus li > a{
   margin-left: 2rem;
   color:rgb(29, 29, 161) !important;
   transition: all 0.3s ease;
 }
 
-.main-menus li a:hover{
+.main-menus li > a:hover{
   color:rgb(146, 146, 199) !important;
 }
 .social-icons{
@@ -25,7 +25,8 @@
 }
 
 .main-submenus .dropdown-item:active,.main-submenus .dropdown-item:hover{
-  background:none !important;
+  background:rgb(29, 29, 161) !important;
+  color:#fff;
 }
 img[alt="logo-imran"]{
   height:40px;
