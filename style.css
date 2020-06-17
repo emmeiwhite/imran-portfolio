@@ -3,8 +3,14 @@
   justify-content: flex-end;
 }
 
-.main-menus li{
+.main-menus li a{
   margin-left: 2rem;
+  color:rgb(29, 29, 161) !important;
+  transition: all 0.3s ease;
+}
+
+.main-menus li a:hover{
+  color:rgb(146, 146, 199) !important;
 }
 .social-icons{
   display: flex;
@@ -13,11 +19,19 @@
 }
 
 .social-icons a{
-  color: rgb(114, 114, 245);
+  color: rgb(29, 29, 161);
   margin-left: 1.5rem;
-  font-size:1.5rem;
+  font-size:1.2rem;
 }
 
+.main-submenus .dropdown-item:active,.main-submenus .dropdown-item:hover{
+  background:none !important;
+}
 img[alt="logo-imran"]{
   height:40px;
 }
+
+.footer{
+  color:rgb(29, 29, 161);
+}
+
