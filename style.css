@@ -1,3 +1,11 @@
+/* --- img-circle utilities--- */
+.img-circle{
+  border-radius:50%;
+}
+.main-navigation{
+  background:#ccc;
+}
+
 .main-menus{
   flex:3;
   justify-content: flex-end;
@@ -12,6 +20,7 @@
 .main-menus li > a:hover{
   color:rgb(146, 146, 199) !important;
 }
+
 .social-icons{
   display: flex;
   flex:1;
@@ -28,11 +37,19 @@
   background:rgb(29, 29, 161) !important;
   color:#fff;
 }
+
 img[alt="logo-imran"]{
   height:40px;
 }
 
+
+/* Main Section */
+.main-details img{
+  max-height:40vh;
+}
+/* Footer Section */
 .footer{
   color:rgb(29, 29, 161);
+  font-size:  0.875rem !important;
 }
 
