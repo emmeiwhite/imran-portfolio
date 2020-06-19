@@ -1,55 +1,77 @@
-/* --- img-circle utilities--- */
-.img-circle{
-  border-radius:50%;
-}
-.main-navigation{
-  background:#ccc;
-}
-
-.main-menus{
-  flex:3;
-  justify-content: flex-end;
-}
-
-.main-menus li > a{
-  margin-left: 2rem;
-  color:rgb(29, 29, 161) !important;
-  transition: all 0.3s ease;
-}
-
-.main-menus li > a:hover{
-  color:rgb(146, 146, 199) !important;
-}
-
+/* ---We always follow the mobile first approach in bootstrap-4 --- */
 .social-icons{
-  display: flex;
-  flex:1;
-  justify-content: flex-end;
-}
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+  }
 
-.social-icons a{
-  color: rgb(29, 29, 161);
-  margin-left: 1.5rem;
-  font-size:1.2rem;
-}
+  .social-icons a{
+    color: rgb(29, 29, 161);
+    margin-left: 1.5rem;
+    font-size:1.2rem;
+  }
 
-.main-submenus .dropdown-item:active,.main-submenus .dropdown-item:hover{
-  background:rgb(29, 29, 161) !important;
-  color:#fff;
-}
+  .main-submenus .dropdown-item:active,.main-submenus .dropdown-item:hover{
+    background:rgb(29, 29, 161) !important;
+    color:#fff;
+  }
 
-img[alt="logo-imran"]{
-  height:40px;
-}
+  img[alt="logo-imran"]{
+    height:40px;
+  }
+
+  .designation{
+    font-size:2.5rem;
+    font-weight:300;
+  }
+
+  .skillset{
+    font-size:1.5rem;
+    font-weight: 100;
+  }
+
+  .work{
+    font-size: 1.5rem;
+    color:rgb(146, 146, 199)
+  }
+
+@media (min-width:520px){
+  .img-circle{
+    border-radius:50%;
+  }
+  .main-navigation{
+    background:#ccc;
+  }
+
+  .main-menus{
+    flex:3;
+    justify-content: flex-end;
+  }
+
+  .main-menus li > a{
+    margin-left: 2rem;
+    color:rgb(29, 29, 161) !important;
+    transition: all 0.3s ease;
+  }
+
+  .main-menus li > a:hover{
+    color:rgb(146, 146, 199) !important;
+  }
+
+  
 
 
-/* Main Section */
-.main-details img{
-  max-height:40vh;
-}
-/* Footer Section */
-.footer{
-  color:rgb(29, 29, 161);
-  font-size:  0.875rem !important;
+ .designation{
+    font-size:3.5rem;
+    font-weight:100;
+  }
+
+  
+  /* Footer Section */
+  .footer{
+    color:rgb(29, 29, 161);
+    font-size:  0.875rem !important;
+  }
+
 }
 
