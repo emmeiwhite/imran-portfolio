@@ -58,8 +58,25 @@
     color:rgb(146, 146, 199) !important;
   }
 
-  
+  .company-details{
+    border:1px solid rgb(146, 146, 199);
+    padding:2.5rem 1rem;
+    border-top-left-radius: 2rem;
+  }
 
+  .company-detail-header{
+    font-size:2rem;
+    margin-bottom:2rem;
+    color:rgb(108, 117, 125);;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+
+  .company-name{
+    margin:1rem 0;
+    font-size: 1.5rem;
+    color:rgb(108, 117, 125);;
+  }
 
  .designation{
     font-size:3.5rem;
