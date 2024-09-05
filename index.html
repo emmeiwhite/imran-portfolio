@@ -1,139 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Front End Web Development. By Imran Rafiq Rather"
+    />
+    <meta
+      name="keywords"
+      content="HTML5, CSS3 , JavaScript,Bootstrap, Flexbox"
+    />
+    <meta
+      name="author"
+      content="Imran Rafiq Rather"
+    />
+    <!-- Font-Awesome kit -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Front End Web Development. By Imran Rafiq Rather" />
-  <meta name="keywords" content="HTML5, CSS3 , JavaScript,Bootstrap, Flexbox" />
-  <meta name="author" content="Imran Rafiq Rather" />
-  <!-- Font-Awesome kit -->
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>imran-rafiq-rather-portfolio</title>
+  </head>
 
-  <link rel="stylesheet" href="./style.css">
-  <title>imran-rafiq-rather-portfolio</title>
-</head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="container navbar navbar-expand-lg d-flex navbar-light">
+        <a
+          class="navbar-brand"
+          href="./index.html"
+        >
+          <img
+            src="./images/imran-logo.png"
+            alt="logo-imran"
+          />
+          <!-- <img src="./images/OrZu-emmei-Designs.png" alt="logo-imran" style="height:130px;"> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarHeader"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body>
-  <!-- Header Start -->
-  <header>
-    <nav class="container navbar navbar-expand-lg   d-flex navbar-light">
-      <a class="navbar-brand" href="./index.html">
-        <img src="./images/imran-logo.png" alt="logo-imran">
-        <!-- <img src="./images/OrZu-emmei-Designs.png" alt="logo-imran" style="height:130px;"> -->
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarHeader">
-        <ul class="navbar-nav main-menus">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="work-experience.html">Work Experience </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              About Me
+        <div
+          class="collapse navbar-collapse"
+          id="navbarHeader"
+        >
+          <ul class="navbar-nav main-menus">
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="index.html"
+              >
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="work-experience.html"
+              >
+                Work Experience
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                About Me
+              </a>
+              <div
+                class="dropdown-menu main-submenus"
+                aria-labelledby="navbarDropdown"
+              >
+                <a
+                  class="dropdown-item"
+                  href="about-me/education.html"
+                >
+                  Education
+                </a>
+                <a
+                  class="dropdown-item"
+                  href="about-me/contact.html"
+                >
+                  Contact
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="d-flex social-icons">
+            <a
+              href="https://github.com/emmeiwhite"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
             </a>
-            <div class="dropdown-menu main-submenus" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="about-me/education.html">Education</a>
-              <a class="dropdown-item" href="about-me/contact.html">Contact</a>
-            </div>
-          </li>
-        </ul>
-        <div class="d-flex social-icons">
-          <a href="https://github.com/emmeiwhite" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
 
-          <a href="https://stackoverflow.com/users/6938969/imran-rafiq-rather" target="_blank">
-            <i class="fab fa-stack-overflow"></i>
-          </a>
+            <a
+              href="https://stackoverflow.com/users/6938969/imran-rafiq-rather"
+              target="_blank"
+            >
+              <i class="fab fa-stack-overflow"></i>
+            </a>
 
-          <a href="https://www.linkedin.com/in/imran-rafiq-rather/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Header End -->
-
-  <!-- Starting Main  -->
-
-  <main class="container my-3 main-section">
-    <div class="row">
-      <div class="col-12 text-center">
-        <article class="text-muted">
-          <figure class="figure">
-            <img src="./images/resume2020.jpg" class="figure-img img-fluid rounded-circle" alt="myImage">
-            <figcaption class="figure-caption text-muted text-center">Imran Rafiq Rather</figcaption>
-          </figure>
-        </article>
-
-        <h3 class="text-muted designation">Front End Web Developer</h3>
-        <h3 class="text-muted skillset">
-          ReactJs &nbsp; HTML5 &nbsp; CSS3 &nbsp; ES9
-        </h3>
-
-        <p class="py-1 text-muted text-center">Available to work for the role in Front-End Web Development and Web
-          Designing
-        </p>
-        <div class="my-3">
-          <h3 class="skillset text-muted font-weight-normal lead">Resume / CV</h3>
-          <a href="./pdfs/Imran_Rather.pdf" target="_blank" class="text-decoration-none">Imran Rafiq
-            Rather
-            &nbsp;<i class="fas fa-file" aria-hidden="true"></i></a>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Ending main -->
-
-  <!-- Start Footer -->
-  <footer>
-    <hr>
-    <div class="container footer text-muted">
-      <div class="row">
-        <div class="col-12 font-weight-light col-md-4  mb-4 text-center text-sm-left ">
-          <span>&copy; 2020 Imran Rafiq Rather</span>
-        </div>
-        <div class="col-12 font-weight-light col-md-4 mb-4 text-center">
-          <div class="font-weight-normal">Front End Web Developer</div>
-          <div>ReactJs, NextJs, Axios, Flexbox, HTML5, CSS3, Github, CSS Grid, Webpack, Babel, React-router-dom , ES9
+            <a
+              href="https://www.linkedin.com/in/imran-rafiq-rather/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
-        <div class="col-12 font-weight-light col-md-4  mb-4 text-center text-sm-right">
-          <div>emmeiwhite@gmail.com</div>
-          <div>ratherimran99@gmail.com</div>
+      </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Starting Main  -->
+
+    <main class="container my-3 main-section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <article class="text-muted">
+            <figure class="figure">
+              <img
+                src="./images/resume2020.jpg"
+                class="figure-img img-fluid rounded-circle"
+                alt="myImage"
+              />
+              <figcaption class="figure-caption text-muted text-center">
+                Imran Rafiq Rather
+              </figcaption>
+            </figure>
+          </article>
+
+          <h3 class="text-muted designation">Front End Web Developer</h3>
+          <h3 class="text-muted skillset">ReactJs &nbsp; HTML5 &nbsp; CSS3 &nbsp; ES9</h3>
+
+          <p class="py-1 text-muted text-center">
+            Available to work for the role in Front-End Web Development and Web Designing
+          </p>
+          <div class="my-3">
+            <h3 class="skillset text-muted font-weight-normal lead">Resume / CV</h3>
+            <a
+              href="./pdfs/Imran_Rafiq_Rather_09_24.pdf"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              Imran Rafiq Rather &nbsp;
+              <i
+                class="fas fa-file"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
-  <!-- Optional JavaScript -->
+    </main>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-</body>
+    <!-- Ending main -->
 
+    <!-- Start Footer -->
+    <footer>
+      <hr />
+      <div class="container footer text-muted">
+        <div class="row">
+          <div class="col-12 font-weight-light col-md-4 mb-4 text-center text-sm-left">
+            <span>&copy; 2020 Imran Rafiq Rather</span>
+          </div>
+          <div class="col-12 font-weight-light col-md-4 mb-4 text-center">
+            <div class="font-weight-normal">Front End Web Developer</div>
+            <div>
+              ReactJs, NextJs, Axios, Flexbox, HTML5, CSS3, Github, CSS Grid, Webpack, Babel,
+              React-router-dom , ES9
+            </div>
+          </div>
+          <div class="col-12 font-weight-light col-md-4 mb-4 text-center text-sm-right">
+            <div>emmeiwhite@gmail.com</div>
+            <div>ratherimran99@gmail.com</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
